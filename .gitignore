@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/coverage/
+contracts/typechain-types/
+
+# Next.js
+.next/
+out/
+frontend/.next/
+frontend/out/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Mac
+.DS_Store
